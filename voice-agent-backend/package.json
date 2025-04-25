@@ -1,0 +1,27 @@
+{
+  "name": "voice-agent-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^6.7.0",
+    "@google-cloud/text-to-speech": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.5.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-os-utils": "^1.3.7",
+    "one-liner-joke": "^1.2.2",
+    "openai": "^4.56.0",
+    "socket.io": "^4.7.5",
+    "uuid": "^11.1.0",
+    "whisper": "^0.2.5"
+  }
+}
